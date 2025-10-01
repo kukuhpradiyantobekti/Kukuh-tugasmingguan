@@ -17,7 +17,7 @@
     <header class="bg-white shadow">
       <div class="max-w-7xl mx-auto p-6 flex items-center justify-between">
         <div class="flex items-center space-x-4">
-          <img src="/favicon.ico" alt="logo" style="width:48px;height:48px;object-fit:contain">
+          <img src="/images/ti-unimus.svg" alt="Logo Teknologi Informasi UNIMUS" style="width:160px;height:48px;object-fit:contain">
           <div>
             <div class="font-semibold text-2xl">Teknologi Informasi - UNIMUS</div>
             <div class="text-gray-500 text-sm">Situs resmi tugas mingguan</div>
