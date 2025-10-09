@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
 @section('content')
-      <h1>Ini Halaman Home</h1>
+<h1>Hello, welcome to the Home Page!</h1>
 
 @endsection
