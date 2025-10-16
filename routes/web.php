@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\MahasiswaController;
 use App\Models\Berita;  
 
 use Illuminate\Support\Facades\Route;
