@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BeritaController;
 use App\Models\Berita;  
 
 use Illuminate\Support\Facades\Route;
@@ -13,29 +14,18 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('profile',[
         "title" => "profile",
-        "nama" => "markonah",
+        "nama" => "Alex",
         "nohp" => "00857326329",
         "foto" => "images/koko.png",
     ]);
 });
 
-Route::get('/berita', function () {
+Route::get('/berita', [BeritaController::class, 'index']);
+Route::get('/berita/{slug}', [BeritaController::class,'tampildata']);
 
-    
-    return view('berita', [
-        "title" => "berita",
-        "beritas" => Berita ::ambildata(),
-    ]);
-});
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 
-Route::get('/berita/{slug}', function ($slugp) {
-    
-   
-    return view('singleberita', [
-        "title" => "berita",
-        "new_berita" => Berita ::caridata($slugp),
-    ]);
-});
+
 Route::get('/contact', function () {
     return view('contact', [
         "title" => "contact",
