@@ -17,6 +17,7 @@ return new class extends Migration
             $table->integer('nim')->unique();
             $table->string('prodi');
             $table->string('email')->unique();
+            $table->bigInteger('nohp')->nullable();
             $table->timestamps();
         });
     }
