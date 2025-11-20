@@ -28,7 +28,7 @@
                     <a class="nav-link" href="/berita">berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="/contact">contact</a>
+                    <a class="nav-link disabled" href="{{ url('/contact') }}">contact</a>
                 </li>
             </ul>
         </div>
