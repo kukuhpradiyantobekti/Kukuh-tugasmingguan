@@ -31,6 +31,8 @@ Route::POST('/insertdata', [MahasiswaController::class, 'insertdata'])->name('in
 Route::get('/tampildataedit/{id}', [MahasiswaController::class, 'tampildataedit'])->name('tampildataedit');
 Route::POST('/editdata/{id}', [MahasiswaController::class, 'editdata'])->name('editdata');
 
+Route::get('/deletedata/{id}', [MahasiswaController::class, 'deletedata'])->name('deletedata');
+
 
 
 

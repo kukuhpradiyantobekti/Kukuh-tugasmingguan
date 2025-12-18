@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <a class="nav-link disabled" href="{{ url('/contact') }}">contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/mahasiswa') }}">mahasiswa</a>
+                </li>
             </ul>
         </div>
     </nav>
